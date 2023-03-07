@@ -1,14 +1,20 @@
 
 h1 {
-    margin: 0;
+    font-size: 5.625rem;
+    color: #66BFBF;
+    margin: 50px auto 0px auto;
     font-family: 'Sacramento', cursive;
 }
 
 h2{
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
     font-family: 'Montserrat', sans-serif;
 }
 
 h3{
+    color: #11999E;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -16,6 +22,13 @@ body {
     margin: 0;
     text-align: center;    
     font-family: 'Merriweather', serif;
+}
+
+.skill-row {
+    width: 50%;
+    text-align: left;
+    margin: 100px auto;
+    line-height: 2;
 }
 
 .top-container{
@@ -34,4 +47,16 @@ body {
     position: absolute;
     left: 300px;
     bottom: 300px;
+}
+
+.dsa-img{
+    float: left;
+    margin-right: 30px;
+    width: 25%;
+}
+
+.bda-img{
+    float: right;
+    margin-right: 30px;
+    width: 25%;
 }
